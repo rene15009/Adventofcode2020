@@ -18,7 +18,7 @@ namespace AventOfCode
             var (s1, s2, s3) = ModuloDay01.SolveSecond();
             Console.WriteLine($"Numbers Found: {s1} * {s2} * {s3} = {s1 * s2 * s3}");
 
-            Console.WriteLine("Pulsa cualquier tecla para continuar");
+            Console.WriteLine("Press any key to close");
 
             Console.ReadLine();
         }

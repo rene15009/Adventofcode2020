@@ -1,7 +1,6 @@
 ﻿using System;
-using System.ComponentModel;
 
-namespace AventOfCode
+namespace AdventOfCode
 {
     class Program
     {

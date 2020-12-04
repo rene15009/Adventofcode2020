@@ -1,10 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace AventOfCode
+namespace AdventOfCode
 {
     internal static class ModuloDay02
     {

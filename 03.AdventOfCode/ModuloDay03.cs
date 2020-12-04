@@ -50,7 +50,7 @@ namespace AdventOfCode
         //Este es el pedido en el primer ejercicio
         public static int Solve() => SolveXY(3, 1);
 
-        public static int SolveTwo()
+        public static long SolveTwo()
         {
             /*
                 Right 1, down 1.
@@ -66,7 +66,9 @@ namespace AdventOfCode
             var n4 = SolveXY(7, 1);
             var n5 = SolveXY(1, 2);
 
-            return n5 * n4 * n3 * n2 * n1;
+            return (long)n5 * n4 * n3 * n2 * n1;
+
+           
         }
 
         public static int SolveXY(int steepX, int steepY)
